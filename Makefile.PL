@@ -6,6 +6,7 @@ requires 'Twiggy';
 requires 'Any::Moose';
 requires 'JSON';
 requires 'parent';
+requires 'AnyEvent::Twitter::Stream';
 install_script 'bin/fakehose';
 build_requires 'Test::More', 0.88;
 test_requires 'Test::Requires';
