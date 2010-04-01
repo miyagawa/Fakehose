@@ -1,0 +1,3 @@
+- Accept posts using the Twitter API itself with basic authentication
+- Support *real* filtering using following user ID, track keywords or geo filtering
+- Support Proxying through the real Twitter? Could be easy with a separate AE::Twitter::Stream process

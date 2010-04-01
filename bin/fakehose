@@ -1,0 +1,14 @@
+#!perl
+use strict;
+use Fakehose;
+
+if ($0 eq __FILE__) {
+    require Plack::Runner;
+    my $app = Plack::Runner->new;
+    $app->parse_options(@ARGV);
+    return $app->run(Fakehose->webapp);
+}
+
+Fakehose->webapp;
+
+
