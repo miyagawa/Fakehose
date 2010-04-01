@@ -51,6 +51,17 @@ Fakehose is a fake Twitter streaming API server that allows you to
 inject events using HTTP POST (with tools such as LWP or curl) to
 generate fake events.
 
+=head1 INSTALLATION
+
+  git clone git://github.com/miyagawa/Fakehose.git
+  cd Fakehose
+  cpanm .
+
+You might need to sudo when running cpanm. If you don't have cpanm
+installed, you can also do:
+
+  curl -L http://cpanmin.us | perl - .
+
 =head1 AUTHOR
 
 Tatsuhiko Miyagawa E<lt>miyagawa@bulknews.netE<gt>
