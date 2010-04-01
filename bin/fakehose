@@ -11,4 +11,14 @@ if ($0 eq __FILE__) {
 
 Fakehose->webapp;
 
+__END__
 
+=head1 NAME
+
+fakehose - Fakehose launcher
+
+=head1 SYNOPSIS
+
+This command takes the same options as plackup does. Run C<plackup -h> to see them.
+
+=cut

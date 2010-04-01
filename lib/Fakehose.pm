@@ -43,6 +43,7 @@ Fakehose - Fake Twitter firehose simulator
 
 =head1 SYNOPSIS
 
+  # runs your fake Twitter streaming server on localhost:5000
   fakehose
 
 =head1 DESCRIPTION
