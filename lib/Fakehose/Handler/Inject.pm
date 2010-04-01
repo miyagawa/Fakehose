@@ -13,7 +13,6 @@ sub post {
 
     my $json = $self->request->content;
     if ($json) {
-        warn "Got $json";
         $mq->publish( JSON::decode_json($json) );
         $self->write({ status => 'ok' });
         $self->finish;
